@@ -1,0 +1,23 @@
+.profile {
+    background-color: lemonchiffon;
+}
+
+.contact-info {
+    background-color: rgb(119, 112, 46);
+}
+
+.headers {
+    color: darkblue;
+}
+
+#email {
+    background-color: goldenrod;
+}
+
+#github {
+    background-color: lightsteelblue
+}
+
+#portfolio {
+    background-color: darkorange;
+}

@@ -1,0 +1,35 @@
+/* Define three different fonts. The browser will try to use the first one, in case it's not supported, it will try the next, then the next. */
+/* This should prevent the webpage from crashing, by using three options instead of only one */
+* {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  }
+
+/* define styles to all elements inside the body element */
+/* in this case, the background color of the body section is defined */
+body {
+  background-color: lemonchiffon;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  color: #f0ead6;
+  background-color: #191970;
+}
+
+figure {
+  width: 200px;
+  background-color: #f0ead6;
+}
+
+/* defines stle for the class highlighted-text. In this case used to style the unordered list in the page */
+.highlighted-text {
+  font-weight: bolder;
+}
+
+/* Determines the background color for the entire contact-section */
+#contact-section {
+  background-color: #f0ead6;
+}
